@@ -1,0 +1,21 @@
+img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center right;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+p {
+  margin-top: 0px;
+}
+
+.texto {
+  align-self: center;
+}
+

@@ -1,0 +1,34 @@
+img {
+  max-width: 100%;
+  display: block;
+  gap: 20px;
+}
+
+.minmax {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));;
+}
+
+@media (min-width:600px) {
+  div img {
+    order: 2;
+  }
+}
+
+.galeria {
+  grid-template-columns: repeat(auto-fit, 150px);
+  background-color: #c6c6c6;
+}
+
+p {
+  font-size: 2rem;
+  padding: 20px;
+}
+
+div {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+

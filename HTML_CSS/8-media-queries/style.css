@@ -1,0 +1,38 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+h1 {
+  background-color: bisque;
+  grid-column: 1 / -1;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 600px) {
+  div {
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    background-color: brown;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 150%;
+  }
+  h1 {
+    background-color: lightblue;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+  p {
+    background-color: aquamarine;
+  }
+}
